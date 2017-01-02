@@ -13,3 +13,12 @@ food(Some(1), Some("string"))
 
 Some(1).get
 Some("String").get
+
+def foo[A](x:A, y:A) = ???
+
+def bar[F[_], A](x: F[A], y:F[A]) = null
+
+val list = List.fill(10)("a")
+
+List((1,2),(4,5), (7,8)).unzip
+
