@@ -36,7 +36,6 @@ object Exercise1 {
     println(fib(5) + " " + fib2(5))
     println(fib(6) + " " + fib2(6))
     println(fib(7) + " " + fib2(7))
-
   }
 }
 
@@ -56,7 +55,6 @@ object Exercise2 {
     println(isSorted[Int](List(1,2,3,4).toArray[Int], (x,y) => x < y))
     println(isSorted[Int](List(1,2,3,100).toArray[Int], (x,y) => x < y))
     println(isSorted[Int](List(4,3,2,1).toArray[Int], (x,y) => x > y))
-
   }
 }
 
